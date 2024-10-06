@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css" />
+  <title>HERO XP</title>
+</head>
+<body>
+  <main class="main-container">
+    <section id="input-hero-name" class="content">
+      <input id="name" type="text" title="Nome do herói bem aqui" placeholder="Insira o nome do herói" autocomplete="name" required>
+      <button id="add-hero-name">Adicionar nome</button>
+    </section>
+
+    <section id="hero-status">
+      <p>
+        O Herói de nome 
+        <span id="hero-name">...</span> está no nível de <span id="hero-level">...</span>
+      </p>
+    </section>
+
+    <section id="hero-experience" class="content">
+      <input id="hero-xp" type="number" min="0" title="Clique aqui e insira alguns números" placeholder="Insira aqui a XP do herói" required>
+      <button id="add-experience">Adicionar XP</button>
+    </section>
+  </main>
+</body>
+<script src="./index.js"></script>
+</html>
